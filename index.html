@@ -24,5 +24,20 @@
 
   </div>
 
+  <script>
+
+  $(function){
+    cookieXredirect('gender', 'men', '/men.html');
+    cookieXredirect('gender', 'women', '/women.html');
+  }
+
+  function cookieXredirect(key, value, url){
+    if(Cookies.get(key) === value) {
+      window.location.replace(url);
+    }
+  }
+
+  </script>
+
   </body>
 </html>
