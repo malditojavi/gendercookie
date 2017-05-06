@@ -26,10 +26,10 @@
 
   <script>
 
-  $(function){
+  $(function() {
     cookieXredirect('gender', 'men', '/men.html');
     cookieXredirect('gender', 'women', '/women.html');
-  }
+  });
 
   function cookieXredirect(key, value, url){
     if(Cookies.get(key) === value) {
