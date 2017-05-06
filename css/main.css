@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body {
+  background: #f5f5f5;
+}
+/* CSS to block scrolling */
+.section1 {background-color: yellow; height: 100vh;}
+.section2 {background-color: none; height: 100vh; display: block;}
+.hiddenlink {text-decoration: none; color: lightgrey; margin-top: 10em !important;}
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+.allowscrolling {
+  overflow: scroll !important;
+}
+
+.crosshair {
+  cursor: crosshair;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+/* Layout CSS */
+.gradientbg {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,207cca+63,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #1e5799 0%, #207cca 63%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #1e5799 0%,#207cca 63%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #1e5799 0%,#207cca 63%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.center {text-align: center;}
+.flex {display: flex;}
+.image {justify-content: space-around; display: inline-block; width: 45%;}
+
+.section1 {text-align: center;}
+
+.hiddenlink:hover {color:inherit; text-decoration: none;}
+.castsprelaunch {min-width: 50em; center; margin-top: 2em; margin-bottom: 2em; }
+
+.maintitle {color: white; font-family: Avenir Next; font-weight: 500; text-align: center; margin-top: 2em;}
+.custombtn {
+    padding: 0.625rem 0.9375rem 0.5rem 0.9375rem !important;
+    margin: 0 !important;
+    font-family: "proxima-nova", "Proxima Nova", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 2rem !important;
+    text-align: center !important;
+    color: white !important;
+    background: #114b8e !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    border: 0 !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    border-radius: 5px !important;
+    display: inline-block !important;
+    border-bottom: 2px solid #277adc !important;
+}
